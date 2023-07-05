@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.05em;
+  background-color: #323031;
+  color: #e5e5e5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Lists */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: #e5e5e5;
+  padding: 0.5rem;
+}
+
+/* Navbar */
+
+.navigation {
+  margin: 1.5rem 0;
+}
+
+.navigation ul {
+  overflow: hidden;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation li a {
+  color: #e5e5e5;
+  opacity: 0.5;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.navigation li a:hover {
+  opacity: 1;
+}
+
+/* Footer */
+
+.footer {
+  margin: 1.5rem 0;
+  color: #323031;
+}
+
+/* Colors */
+
+.accent {
+  color: #ffbe0b;
+}
+
+.error {
+  color: #ef233c;
+}
